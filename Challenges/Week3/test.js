@@ -8,7 +8,9 @@
             console.log(sum);
         }
     }
+array.splice(2,0,6);
+console.log(array);
 
-    $("h2 span").text('$6500');
+    $("h2 span").text('$6,500');
 
 //);
