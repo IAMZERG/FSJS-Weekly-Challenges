@@ -68,10 +68,19 @@ ul li {
 
 .btn:hover {
     transform: scale(1.05);
-}
+	}
 
 
-  .header {
-    margin-top: 3em;
-  }
-}
+	.header {
+		margin-top: 3em;
+	}
+
+	.box {
+		width: 10px;
+		height: 10px;
+		background: black;
+		margin: 5px;
+	}
+	#output {
+		width: 100%;
+	}

@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<title>Box</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<title>Box</title>
 </head>
 <body>
-    <div class="header">
-			
-<h3>Code Challenge:</h3> 
-<p>
-Create an object named "Box" with 3 properties, height, width, volume.</br>
-Create 2 buttons for Height. The first button decreases the Box Height by 1. The second button increases the Box Height by 1.</br>
-Create a button that prints the object and its attributes to the page (use the span "output".</br>
-</p>
- 
-<h3>Extra credit</h3>
-<p>Create interactive buttons to decrease or increase the Width and Volume</p>
+<div class="header">
 
-			
-    </div>
-	
-	<table>
-		<tr>
-			<td>Box:</td>
-			<td><span id="output"></span>
+	<h3>Code Challenge:</h3> 
+	<p>
+	Create an object named "Box" with 3 properties, height, width, volume.</br>
+	Create 2 buttons for Height. The first button decreases the Box Height by 1. The second button increases the Box Height by 1.</br>
+	Create a button that prints the object and its attributes to the page (use the span "output".</br>
+	</p>
+
+	<h3>Extra credit</h3>
+	<p>Create interactive buttons to decrease or increase the Width and Volume</p>
+
+
+</div>
+<div class="boxView">
+	<div class="box box-test"></div>
+</div>
+
+<table>
+	<tr>
+		<td>Box:</td>
 			<td><button id="Print" class="btn">Print Box</button></td>
 		</tr>
 		<tr>
@@ -33,8 +35,8 @@ Create a button that prints the object and its attributes to the page (use the s
 		</tr>
 		<tr>
 			<td>Weight:</td>
-			<td><button id="WeightDecrease" class="btn">-</button></td>
-			<td><button id="WeightIncrease" class="btn">+</button></td>
+			<td><button id="WidthDecrease" class="btn">-</button></td>
+			<td><button id="WidthIncrease" class="btn">+</button></td>
 		</tr>
 		<tr>
 			<td>Volume:</td>
@@ -42,10 +44,13 @@ Create a button that prints the object and its attributes to the page (use the s
 			<td><button id="VolumeIncrease" class="btn">+</button></td>
 		</tr>
 	</table>
+	<hr>
+	<h3>Finished Boxes</h3>
+	<div id="output"></div>
 
 
-    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+	<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
 
-</body>
-</html>
+	</body>
+	</html>
